@@ -1,0 +1,38 @@
+.categories li, .sidelink li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    list-style: none; }
+    .categories li:last-child, .sidelink li:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+      padding-bottom: 0; }
+    .categories li a, .sidelink li a {
+      display: block;
+      color: #1a1a1a; }
+      .categories li a span, .sidelink li a span {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #ccc; }
+      .categories li a:hover, .categories li a:focus, .sidelink li a:hover, .sidelink li a:focus {
+        outline: none;
+        color: #ffd369; }
+    .categories li.active a, .sidelink li.active a {
+      color: #ffd369; }
+      .categories li.active a span, .sidelink li.active a span {
+        color: #ffd369; }
+
+.tagcloud a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 7px;
+    margin-right: 4px;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid #ccc;
+    font-size: 11px; }
+    .tagcloud a:hover {
+        border: 1px solid #000; }
