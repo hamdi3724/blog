@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+    header .menu-wrap {
+        display: block;
+        float: right;
+        padding: 0.4rem 10vw !important;
+
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+
+    header nav>a {
+        padding: 0;
+    }
+
+    header nav {
+        padding: 0.4rem 5vw !important;
+
+    }

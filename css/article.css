@@ -1,0 +1,23 @@
+* {
+    background-origin: border-box;
+    vertical-align: top;
+}
+
+.bg-noir {
+    height: 30vh !important;
+    color: red !important;
+    background-color: #222831;
+}
+
+#header-2 {
+    height: 30vh !important;
+}
+
+main
+{
+    background-color:#f3f3f3;
+}
+
+aside {
+    background-color: #fff;
+}
