@@ -44,20 +44,16 @@
         /* *************************************************************************
         *************************************************************************
         **********************Section****************************************** */
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
+       
         .pos {
             position: absolute;
-            top: 56%;
-            left: 40px;
+            bottom: 0;
+            left: 10%;
         }
         .pos .after:after {
             position: absolute;
             bottom: -10px;
-            left: 10px;
+            left: -50px;
             content: '';
             width: 0;
             height: 0;
@@ -74,34 +70,41 @@
             display: block;
             width: 100%;
             border-radius: 4px;
-            margin-bottom: 8%;
+            margin-bottom: 5%;
             cursor: pointer;
         }
         .size {
-            font-size: 30px;
+            font-size: 35px;
         }
+
+        .relative {
+            position: relative;
+        }
+
         .readmore {
             display: block;
             text-decoration: none;
-            opacity: 0.7;
+            opacity: 0.8;
             color: #959595;
+            margin-bottom: 5%;
         }
         .readmore:hover {
             opacity: 1;
             text-decoration: none;
         }
-        h3:hover {
+        section h4:hover {
             opacity: 0.5;
         }
-        h3:hover .readmore {
+        section h4:hover .readmore {
             opacity: 1;
         }
-        .resizeimg:hover h3 {
-            opacity: 0.5;
+        .resizeimg:hover {
+            opacity: 0.9;
         }
         .resizeimg:hover .readmore {
             opacity: 1;
-        }   
+        } 
+   
 /*------------------------------------------------------------------
     Tout
 -------------------------------------------------------------------*/
