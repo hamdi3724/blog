@@ -2,7 +2,7 @@
 	.contact{
 		padding: 4%;
 	}
-	.col-md-4{
+	.contact .col-md-4{
 		background: #ff9b00;
 		padding: 4%;
 		border-top-left-radius: 0.5rem;
@@ -17,7 +17,7 @@
 	.contact-info h2{
 		margin-bottom: 10%;
 	}
-	.col-md-8{
+	.contact .col-md-8{
 		background: #fff;
 		padding: 3%;
 		border-top-right-radius: 0.5rem;
@@ -39,7 +39,6 @@
     .contact iframe {
         border: 1px solid #FF9B00;
         opacity: 0.8;
-        margin-left: 20%;
     }
 
     .contact iframe:hover {
@@ -55,10 +54,11 @@
         opacity: 0.8;
     }
 
-    button {
+    .contact button {
         background-color: #FFD369;
     }
 
     .contact button:hover {
-        border: 1px solid #FF9B00;
+		border: 1px solid #FF9B00;
+		color: white; 
     }
