@@ -3,25 +3,20 @@
                 <div class="bg-white container">
                     <div class="page-container">
 
-                        <h1 class="l-heading">Lorem ipsum dolor sit amet consectetur.</h1>
+                        <h1 class="l-heading"><?= $result[0]['title']?></h1>
                         <div class="meta">
                             <small>
-                                <span><i class="far fa-clock"> 02 mars 2020 </i></span>
+                                <span><i class="far fa-clock"> <?= $result[0]['creation_timestamp']?> </i></span>
                                 <span><i class="far fa-eye"> 120 vues </i></span>
                                 <span><i class="far fa-comment"> 50 commentaires </i></span>
                             </small>
                             <hr>
                             <article class="cards">
-                                <img src="img/showcase.jpg" alt="">
+                                <img src="<?= $result[0]['image']?>" alt="">
                         </div>
                         <br>
-                        <p>praesentibus ne mandaremus quamquam expetendis illum possumus voluptatibus doctrina dolor se
-                            graviterque culpa adipisicing occaecat firmissimum instituendarum tamen efflorescere culpa
-                            nostrud incididunt nisi officia se mentitum ubi iis incurreret quid cillum consequat aliqua
-                            commodo aliqua quem
-                            efflorescere aut quibusdam si quem fidelissimae ut summis magna enim eu
-                            praesentibus nostrud aliqua</p>
-                        <p>tamen iis consequat quibusdam qui te culpa sempiternum dolor eu appellat irure
+                        <p><?= $result[0]['contents']?></p>
+                        <!-- <p>tamen iis consequat quibusdam qui te culpa sempiternum dolor eu appellat irure
                             se familiaritatem incurreret occaecat appellat imitarentur duis do nulla dolor
                             enim eruditionem duis dolor reprehenderit imitarentur ad te litteris possumus
                             instituendarum enim nostrud voluptate eu magna ita quae cillum arbitrantur
@@ -30,7 +25,7 @@
                             duis instituendarum dolore singulis sint exquisitaque ipsum singulis arbitror
                             consequat distinguantur illustriora aute irure quid sint ad ubi fore illum quae
                             elit legam e eu possumus ex hic ingeniis esse sint efflorescere mandaremus de
-                            aliqua in summis veniam cillum magna do</p>
+                            aliqua in summis veniam cillum magna do</p> -->
                         </article>
                     </div>
                 </div>

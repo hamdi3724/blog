@@ -18,7 +18,7 @@
                 <div class="tab-content" id="pills-tabContent">
                   <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
 
-                                <form action="#">
+                                <form action="login.php" method="post" name="form1">
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control" id="email" placeholder="Email" required autofocus>
                                 </div>
@@ -33,7 +33,7 @@
                                 </div>
                     
                                 <div class="text-center pt-4">
-                                    <button type="submit" class="btn  btn-form-color">Login</button>
+                                    <button type="submit" name="Submit" class="btn  btn-form-color">Login</button>
                                 </div>
                     
                                 <div class="text-center pt-2">
@@ -44,9 +44,15 @@
           
                   <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
                       
-                                <form action="#">
+                                <form action="register.php" method="post" name="form2">
                                 <div class="form-group">
                                     <input type="text" name="username" id="name" class="form-control" placeholder="Username" required autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Firstname" required autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="lastname" required autofocus>
                                 </div>
                     
                                 <div class="form-group">
@@ -57,12 +63,9 @@
                                     <input type="password" name="password" id="password" class="form-control" placeholder="Set a password" required>
                                 </div>
                     
-                                <div class="form-group">
-                                    <input type="password" name="password_confirmation" id="password-confirm" class="form-control" placeholder="Confirm password" required>
-                                </div>
                     
                                 <div class="text-center pt-2 pb-1">
-                                    <button type="submit" class="btn btn-form-color">Register</button>
+                                    <button type="submit" name="Submit" class="btn btn-form-color">Register</button>
                                 </div>
                                 </form>
                   </div>
